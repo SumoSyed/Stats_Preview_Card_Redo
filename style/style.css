@@ -1,0 +1,145 @@
+/* ======================================= */
+            /* COMMON CSS START */
+/* ======================================= */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+/* ======================================= */
+            /* COMMON CSS END */
+/* ======================================= */
+
+body{
+    background: #353535;
+    color: #fff;
+}
+
+#main{
+  background: hsl(233, 47%, 7%);
+  padding: 25% 5%;
+}
+
+/* === Mobile Design === */
+@media (min-width: 300px) and (max-width: 600px) {
+
+  #main{
+    width: 375px;
+    margin: 0 auto;
+  }
+  .card{
+    text-align: center;
+    background: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .head_text{
+    margin: 25px auto;
+    width: 70%;
+  }
+  
+  .head_text h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .head_text h2 span{
+    color: hsl(277, 64%, 61%);
+  }
+
+  .head_para{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .head_para p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  .image img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+
+  .image{
+    position: relative;
+  }
+
+  .image::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%, 0.5);
+  }
+
+  .image::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%, 0.1);
+  }
+
+  .image .overlay::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 240, 0.1); 
+  }
+
+  
+  .image .overlay::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 25, 56, 0.1); 
+    }
+
+
+  .stat_row{
+    padding: 18px 0;
+  }
+
+  .stat_row:first-child{
+    margin-top: 25px;
+  }
+
+  .stat_row h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .stat_row h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+
+}
+/* === Mobile Design === */
