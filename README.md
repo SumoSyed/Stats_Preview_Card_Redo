@@ -32,7 +32,7 @@ Mobile design (Was unable to set the image color tone.)
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Page for designed site](https://sumosyed.github.io/Stats_Preview_Card_Redo/)
 
 ## My process
 
