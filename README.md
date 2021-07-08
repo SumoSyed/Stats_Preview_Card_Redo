@@ -31,8 +31,8 @@ Mobile design (Was unable to set the image color tone.)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Page for designed site](https://sumosyed.github.io/Stats_Preview_Card_Redo/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/mobile-first-using-media-query-flex-g1m5CFJ2X)
+- Live Site URL: [Live Site URL Mobile/Desktop](https://sumosyed.github.io/Stats_Preview_Card_Redo/)
 
 ## My process
 
